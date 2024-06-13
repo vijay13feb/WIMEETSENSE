@@ -97,8 +97,11 @@ python CSI_doppler_computation.py
 ### Creating training and testing setup
 ```bash
 python training_testing.py
-python CSI_doppler_create_dataset_train_test.py
 ```
+```bash
+python CSI_doppler_create_dataset_train_test.py ./ <'setup> <Number of packets in a sample> <Number of packet for sliding operations> <Number of samples per window> <Number of samples to stride> <labels_activities> <Number of streams * number of antennas>
+```
+e.g., python CSI_doppler_create_dataset_train_test.py ./ S4 31 1 256 30 Fo,LD,LL,LR,LU,No,Sh 1
 ### Training and Evaluating the SHARP model 
 ```bash
 pythion CSI_network.py 
