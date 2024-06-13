@@ -25,7 +25,9 @@ Contrastive model, Support Vector Machine (SVM), Gradient Boosting (GB), Random 
 (RF), Multiclass Logistic Regression (LR) and attention-based Bi-directional Long Short-Term258
 Memory(BLSTMA). 
 ### Preprocessing
-Note: Navigate to ```code``` folder
+Note: Navigate to ```code``` directory. 
+
+Computing amplitude feature and denoising 
 ```bash
 amplitude_preprocessing.ipynb
 ```
@@ -62,7 +64,32 @@ constructive.ipynb
 ```
 
 ##  following scripts preprocess, train, and evaluate the SHARP.
+Note: Navigate to ```sharp_code``` directory. 
+### preprocessing 
+Convert the raw CSI values into complex number. 
+```bash
+convert_complex.ipynb
+```
+Combine CSI files participants-wise and store them into ```input_combine```
 
+```bash
+combine.ipynb
+```
+Denoising- Phase saniization
+
+```bash
+preprocessing.ipynb
+Python CSI_signal_Hestimation.py
+Python CSI_signal_reconstruction.py
+```
+Computing Doppler vector feature features and denoising 
+```bash
+CSI_doppler_computation.ipynb
+```
+Creating training and testing setup
+```bash
+training_testing.ipynb
+```
 
 
 
