@@ -13,12 +13,24 @@ git clone https://github.com/vijay13feb/WIMMETSENSE.git
 ```
 Or download the repository form https://github.com/vijay13feb/WIMMETSENSE.git
 
-You can download our dataset from https://doi.org/10.5281/zenodo.11551205 and unzip the file. The dataset contains CSI, video, and audio data with descriptions of filenames. This code repository can be used with CSI data. The CSI data consist of two zip files, "csi_semi.zip" and "csi_wild.zip". Unzip the files and place them at ```./WIMEETSENSE/code/raw_csi```. The code for WIMEETSENSE is implemented in Python, and all required directories are created inside the project folder. The project repository contains code for preprocessing the data and training and evaluating 9 state-of-the-art algorithms such as Constructive model, XGBoost (XGB),
+You can download our dataset from https://doi.org/10.5281/zenodo.11551205 and unzip the file. 
+
+The dataset contains CSI, video, and audio data with descriptions of filenames. This code repository can be used with CSI data. The CSI data consist of two zip files, "csi_semi.zip" and "csi_wild.zip". Unzip the files and place them at ```./WIMEETSENSE/code/raw_csi```. 
+
+The code for WIMEETSENSE is implemented in Python, and all required directories are created inside the project folder. The project repository contains code for preprocessing the data and training and evaluating 9 state-of-the-art algorithms such as Constructive model, XGBoost (XGB),
 Contrastive model, Support Vector Machine (SVM), Gradient Boosting (GB), Random Forest
 (RF), Multiclass Logistic Regression (LR), attention-based Bi-directional Long Short-Term258
 Memory(BLSTMA) and Sensing Human Activities through WiFi Radio Propagation (SHARP) for Human Activity Recognition (HAR).    
 
- The project folder consists of two subfolders, ```sharp``` for SHARP and ```code``` for other state-of-the-art algorithms. The HAR algorithms are evaluated in 4 setups: $\mathbf{S1}$) in a simple setup, using the first 80% of each participant's data and the remaining 20% as testing, $\mathbf{S2}$) 10-fold cross-validation setup, each time use the 9 fold as training and remaining $1$ fold for testing, $\mathbf{S3}$) leave a few out, use a few participant or location data for testing, and the remaining for training, and $\mathbf{S4}$) leave one setting out, use semi-controlled setting data for training and in-the-wild setting for testing, alternatively use the in-the-wild setting for training and semi-controlled setting data for testing.
+ The project folder consists of two subfolders, ```sharp``` for SHARP and ```code``` for other state-of-the-art algorithms. The HAR algorithms are evaluated in 4 setups: 
+ 
+ $\mathbf{S1}$) in a simple setup, using the first 80% of each participant's data and the remaining 20% as testing, 
+ 
+ $\mathbf{S2}$) 10-fold cross-validation setup, each time use the 9 fold as training and remaining $1$ fold for testing, 
+ 
+ $\mathbf{S3}$) leave a few out, use a few participant or location data for testing, and the remaining for training, and 
+ 
+ $\mathbf{S4}$) leave one setting out, use semi-controlled setting data for training and in-the-wild setting for testing, alternatively use the in-the-wild setting for training and semi-controlled setting data for testing.
  ## Create sub directory, required to run the code 
  ### Goto ```code``` directory 
  ```bash
