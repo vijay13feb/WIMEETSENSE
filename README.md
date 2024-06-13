@@ -1,4 +1,4 @@
-# WIMMETSENSE
+# WIMEETSENSE
 WIMEETSENSE: WiFi-Based Meeting Dataset for Human Activity Recognition during Online Meetings. The dataset is collected on a large scale with 33 participants in 5 different locations in 46 different experiment setups. 
 
 This repository contains the reference code for data preprocessing and benchmarking. 
@@ -7,8 +7,9 @@ Clone the repository and enter the folder with the Python code:
 
 Create "WIMEETSENSE" folder in your desired directory. 
 ```bash
-cd <WIMMETSENSE>
-git@github.com:vijay13feb/WIMMETSENSE.git
+mkdir WIMMETSENSE
+cd WIMMETSENSE
+git clone https://github.com/vijay13feb/WIMMETSENSE.git
 ```
 Or download the repository form https://github.com/vijay13feb/WIMMETSENSE.git
 
@@ -29,77 +30,77 @@ Note: Navigate to ```code``` directory.
 
 Computing amplitude feature and denoising 
 ```bash
-Python amplitude_preprocessing.py
+python amplitude_preprocessing.py
 ```
 Create training and testing dataset for ```S1```, ```S2``` and ```S3```. The training scripts contain code for ```S2``. 
 ```bash
-Python training_testing.py
+python training_testing.py
 ```
 ### Training and evaluation
 ```bash
-Python logistic.py <'write evaluation setup such as S1, S2, S3'>
+python logistic.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python logistic.py S1
+e.g., python logistic.py S1
 ```bash
-Python svm.py <'write evaluation setup such as S1, S2, S3'>
+python svm.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python svm.py S1
+e.g., python svm.py S1
 ```bash
-Python gradient_boosting.py <'write evaluation setup such as S1, S2, S3'>
+python gradient_boosting.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python gradient_boosting.py S1
+e.g., python gradient_boosting.py S1
 ```bash
-Python random_forest.py <'write evaluation setup such as S1, S2, S3'>
+python random_forest.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python random_forest.py S1
+e.g., python random_forest.py S1
 ```bash
-Python xgboost.py <'write evaluation setup such as S1, S2, S3'>
+python xgboost.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python xgboost.py S1
+e.g., python xgboost.py S1
 ```bash
-Python bilstm.py <'write evaluation setup such as S1, S2, S3'>
+python bilstm.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python bilstm.py S1
+e.g., python bilstm.py S1
 ```bash
-Python contrastive.py <'write evaluation setup such as S1, S2, S3'>
+python contrastive.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python contrastive.py S1
+e.g., python contrastive.py S1
 ```bash
-Python constructive.py <'write evaluation setup such as S1, S2, S3'>
+python constructive.py <'write evaluation setup such as S1, S2, S3'>
 ```
-e.g., Python constructive.py S1
+e.g., python constructive.py S1
 
-##  following scripts preprocess, train, and evaluate the SHARP.
+##  The following scripts preprocess, train, and evaluate the SHARP.
 Note: Navigate to ```sharp_code``` directory. 
-### preprocessing 
+### Preprocessing 
 Convert the raw CSI values into complex number. 
 ```bash
-Python convert_complex.py
+python convert_complex.py
 ```
 Combine CSI files participants-wise and store them into ```input_combine```
 
 ```bash
-Python combine.py
+python combine.py
 ```
-Denoising- Phase saniization
+## Denoising- Phase saniization
 
 ```bash
-Python preprocessing.py
-Python CSI_signal_Hestimation.py
-Python CSI_signal_reconstruction.py
+python preprocessing.py
+python CSI_signal_Hestimation.py
+python CSI_signal_reconstruction.py
 ```
 Computing Doppler vector feature features and denoising 
 ```bash
 python CSI_doppler_computation.py
 ```
-Creating training and testing setup
+## Creating training and testing setup
 ```bash
-Python training_testing.py
-Python CSI_doppler_create_dataset_train_test.py
+python training_testing.py
+python CSI_doppler_create_dataset_train_test.py
 ```
-Training and Evaluating the SHARP model 
+## Training and Evaluating the SHARP model 
 ```bash
-Pythion CSI_network.py 
+pythion CSI_network.py 
 ```
 
 ## Contact 
