@@ -88,6 +88,11 @@ python CSI_doppler_computation.py
 Creating training and testing setup
 ```bash
 Python training_testing.py
+Python CSI_doppler_create_dataset_train_test.py
+```
+Training and Evaluating the SHARP model 
+```bash
+Pythion CSI_network.py 
 ```
 
 
