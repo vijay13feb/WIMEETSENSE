@@ -1,0 +1,391 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2024-06-12T06:43:16.479900+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 7,
+    "enabled": true,
+    "entries": {
+      "audio_data.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6ac897cbfa3709f0f091eaad6581fea8",
+        "ext": "zip",
+        "id": "10f4d79d-42a1-4dd4-a1ef-6e775668fbdf",
+        "key": "audio_data.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/audio_data.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/audio_data.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 97614247,
+        "storage_class": "L"
+      },
+      "csi_semi.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:3d0f220eb52c4571481b72b3c2c9de16",
+        "ext": "zip",
+        "id": "20b4f6a4-1551-4e9e-ace5-c431113415c5",
+        "key": "csi_semi.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/csi_semi.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/csi_semi.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 1714994622,
+        "storage_class": "L"
+      },
+      "csi_wild.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b43526cd978f831dc8548dbd4e7c2417",
+        "ext": "zip",
+        "id": "086debcf-8bf8-4745-9fc1-46e4e80f210c",
+        "key": "csi_wild.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/csi_wild.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/csi_wild.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 708110525,
+        "storage_class": "L"
+      },
+      "filename_description.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:1b8324f3d9787db5ea5de8e175a97a94",
+        "ext": "zip",
+        "id": "04aaf609-fcbe-45ed-a2e7-20f3aa4c932f",
+        "key": "filename_description.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/filename_description.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/filename_description.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 834,
+        "storage_class": "L"
+      },
+      "filenames.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:e5bd9c0a840cf30df6d0ec812f04eebe",
+        "ext": "zip",
+        "id": "32759ee5-fe60-4337-8246-b4a106fa520a",
+        "key": "filenames.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/filenames.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/filenames.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 2127,
+        "storage_class": "L"
+      },
+      "video_semi.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:f6839d8de900941be2297303eb3b371c",
+        "ext": "zip",
+        "id": "d1adcee7-29f6-4005-9899-e76773af3367",
+        "key": "video_semi.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/video_semi.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/video_semi.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 18761307777,
+        "storage_class": "L"
+      },
+      "video_wild.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:06973066b2a236d13b7571cb4325bfa6",
+        "ext": "zip",
+        "id": "d6cebf12-3100-426b-bd50-c82bb4d61787",
+        "key": "video_wild.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/11551205/files/video_wild.zip/content",
+          "self": "https://zenodo.org/api/records/11551205/files/video_wild.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 10615609483,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 31897639615
+  },
+  "id": "11551205",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/11551205/access",
+    "access_grants": "https://zenodo.org/api/records/11551205/access/grants",
+    "access_links": "https://zenodo.org/api/records/11551205/access/links",
+    "access_request": "https://zenodo.org/api/records/11551205/access/request",
+    "access_users": "https://zenodo.org/api/records/11551205/access/users",
+    "archive": "https://zenodo.org/api/records/11551205/files-archive",
+    "archive_media": "https://zenodo.org/api/records/11551205/media-files-archive",
+    "communities": "https://zenodo.org/api/records/11551205/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/11551205/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.11551205",
+    "draft": "https://zenodo.org/api/records/11551205/draft",
+    "files": "https://zenodo.org/api/records/11551205/files",
+    "latest": "https://zenodo.org/api/records/11551205/versions/latest",
+    "latest_html": "https://zenodo.org/records/11551205/latest",
+    "media_files": "https://zenodo.org/api/records/11551205/media-files",
+    "parent": "https://zenodo.org/api/records/11551204",
+    "parent_doi": "https://zenodo.org/doi/10.5281/zenodo.11551204",
+    "parent_html": "https://zenodo.org/records/11551204",
+    "requests": "https://zenodo.org/api/records/11551205/requests",
+    "reserve_doi": "https://zenodo.org/api/records/11551205/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/11551205",
+    "self_doi": "https://zenodo.org/doi/10.5281/zenodo.11551205",
+    "self_html": "https://zenodo.org/records/11551205",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:11551205/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:11551205/sequence/default",
+    "versions": "https://zenodo.org/api/records/11551205/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "additional_descriptions": [
+      {
+        "description": "<p>The dataset is multimodal and consist CSI data, video Data and audio data. We collect the CSI values of WiFi signals propagating between the access point and the receiving device under a semi-controlled setup where the placement of the devices is partially controlled and in-the-wild where the placement of the devices is not controlled. Our in-the-wild dataset contains variability in terms of positioning of the participant and WiFi access point, such as varying distance, angle, presence of other users, the orientation of the access point, and various obstacles. We capture the participants&rsquo; video feeds through a laptop camera. Additionally, we collected the audio of the speaker during the meeting. Our dataset can be used to extract various activity labels such as head gesticulations, hand movements, and body movements. It can serve as an open testbed to develop a robust CSI-based activity recognition model across participants and locations. Additionally, it can provide valuable observation of the impact of locations and the presence of other objects/participants on CSI data.</p>",
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        },
+        "type": {
+          "id": "technical-info",
+          "title": {
+            "de": "Technische Informationen",
+            "en": "Technical info"
+          }
+        }
+      }
+    ],
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "id": "03vfp4g33",
+            "name": "Indraprastha Institute of Information Technology Delhi"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Kumar Singh",
+          "given_name": "VIJAY",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3032-3840",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Kumar Singh, VIJAY",
+          "type": "personal"
+        },
+        "role": {
+          "id": "contactperson",
+          "title": {
+            "de": "Kontaktperson",
+            "en": "Contact person"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "03vfp4g33",
+            "name": "Indraprastha Institute of Information Technology Delhi"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Maity",
+          "given_name": "Mukulika",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-4240-4746",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Maity, Mukulika",
+          "type": "personal"
+        },
+        "role": {
+          "id": "other",
+          "title": {
+            "de": "Andere",
+            "en": "Other"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "03w5sq511",
+            "name": "Indian Institute of Technology Kharagpur"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Chakraborty",
+          "given_name": "Sandip",
+          "identifiers": [
+            {
+              "identifier": "0000-0003-3531-968X",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Chakraborty, Sandip",
+          "type": "personal"
+        },
+        "role": {
+          "id": "other",
+          "title": {
+            "de": "Andere",
+            "en": "Other"
+          }
+        }
+      }
+    ],
+    "description": "<p>Recent research has showcased the versatile potential of WiFi sensing across a&nbsp;spectrum of applications such as human activity recognition, gesture recognition,<br>localization, human pose tracking, and numerous others. Among the most promising WiFi sensing techniques, Channel State Information (CSI)-based sensing stands out due to its capability of providing fine-grained measurement of WiFi Signals capturing human activities. Collecting a large-scale labeled CSI dataset across various users and environments is tedious and cumbersome; consequently, publicly available CSI datasets are scarce for application-specific HAR. Moreover, existing<br>CSI datasets are collected primarily in controlled settings. In contrast, we present the first semi-controlled and in-the-wild CSI dataset WIMEETSENSE, collected<br>with 33 participants in 5 different locations in 46 different experimental setups covering 51-hour sessions while they attend online meetings. Our dataset is collected utilizing 3 different modalities: WiFi CSI, participant&rsquo;s video, and speaker&rsquo;s audio, and is labeled with 7 head gesticulations.</p>",
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2024-06-11",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "human activity recognition"
+      },
+      {
+        "subject": "channel state information"
+      },
+      {
+        "subject": "WiFi sensing'"
+      }
+    ],
+    "title": "WIMEETSENSE",
+    "version": "v1.0.0"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "1122933"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "11551204",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.11551204",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.11551205",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:11551205",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 4,
+  "stats": {
+    "all_versions": {
+      "data_volume": 38798602768.0,
+      "downloads": 8,
+      "unique_downloads": 6,
+      "unique_views": 8,
+      "views": 9
+    },
+    "this_version": {
+      "data_volume": 38798602768.0,
+      "downloads": 8,
+      "unique_downloads": 6,
+      "unique_views": 8,
+      "views": 9
+    }
+  },
+  "status": "published",
+  "updated": "2024-06-12T06:43:17.440251+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}
