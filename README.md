@@ -19,6 +19,16 @@ Contrastive model, Support Vector Machine (SVM), Gradient Boosting (GB), Random 
 Memory(BLSTMA) and Sensing Human Activities through WiFi Radio Propagation (SHARP) for Human Activity Recognition (HAR).    
 
  The project folder consists of two subfolders, ```sharp``` for SHARP and ```code``` for other state-of-the-art algorithms. The HAR algorithms are evaluated in 4 setups: $\mathbf{S1}$) in a simple setup, using the first 80% of each participant's data and the remaining 20% as testing, $\mathbf{S2}$) 10-fold cross-validation setup, each time use the 9 fold as training and remaining $1$ fold for testing, $\mathbf{S3}$) leave a few out, use a few participant or location data for testing, and the remaining for training, and $\mathbf{S4}$) leave one setting out, use semi-controlled setting data for training and in-the-wild setting for testing, alternatively use the in-the-wild setting for training and semi-controlled setting data for testing.
+ ## Create sub directory, required to run the code 
+ ### Goto ```code``` directory 
+ ```bash
+ mkdir model -p preprocessing/preprocessed_amp/semi_amp preprocessing/preprocessed_amp/wild_amp model raw/semi raw/wild training_testing_data/S1 training_testing_data/S3 training_testing_data/S4
+ ```
+ ### Goto ```sharp_code``` directory 
+ ```bash
+ mkdir model -p S1 S2 S3 preprocessing/semi preprocessing/wild processed/semi processed/wild preprocess/semi preprocessed/wild model input_combine/semi input_combine/wild dopplers/semi dopplers/wild
+ ```
+
  
  ## The following scripts preprocess the raw data, training and evaluating HAR algorithms. 
  The following scripts preprocess, train, and evaluate the  Constructive model, XGBoost (XGB),
