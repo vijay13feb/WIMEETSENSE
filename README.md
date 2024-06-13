@@ -39,28 +39,35 @@ Python training_testing.py
 ```bash
 Python logistic.py <'write evaluation setup such as S1, S2, S3'>
 ```
+e.g., Python logistic.py S1
 ```bash
 Python svm.py <'write evaluation setup such as S1, S2, S3'>
 ```
+e.g., Python svm.py S1
 ```bash
 Python gradient_boosting.py <'write evaluation setup such as S1, S2, S3'>
 ```
+e.g., Python gradient_boosting.py S1
 ```bash
 Python random_forest.py <'write evaluation setup such as S1, S2, S3'>
 ```
+e.g., Python random_forest.py S1
 ```bash
 Python xgboost.py <'write evaluation setup such as S1, S2, S3'>
-``` 
+```
+e.g., Python xgboost.py S1
 ```bash
 Python bilstm.py <'write evaluation setup such as S1, S2, S3'>
 ```
+e.g., Python bilstm.py S1
 ```bash
 Python contrastive.py <'write evaluation setup such as S1, S2, S3'>
 ```
-
+e.g., Python contrastive.py S1
 ```bash
 Python constructive.py <'write evaluation setup such as S1, S2, S3'>
 ```
+e.g., Python constructive.py S1
 
 ##  following scripts preprocess, train, and evaluate the SHARP.
 Note: Navigate to ```sharp_code``` directory. 
@@ -94,6 +101,9 @@ Training and Evaluating the SHARP model
 ```bash
 Pythion CSI_network.py 
 ```
+
+## Contact 
+Vijay Kumar Singh vijaysi@iiitd.ac.in github/vijay13feb
 
 
 
