@@ -116,7 +116,7 @@ for i in main_list:
                 # csi_buff_ = csi_buff[:, :]
                 print(csi_buff.shape)
                 
-                csi_buff = hampel_filter(csi_buff, int(csi_buff.shape[0]/2))
+                csi_buff = hampel_filter(csi_buff, 1000)
                 csi_buff= csi_buff.dropna()
                     
                 # print(csi_buff.isna())
