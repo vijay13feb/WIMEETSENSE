@@ -32,6 +32,7 @@ Computing amplitude feature and denoising
 ```bash
 python amplitude_preprocessing.py
 ```
+### Creating training and testing setup
 Create training and testing dataset for ```S1```, ```S2``` and ```S3```. The training scripts contain code for ```S2``. 
 ```bash
 python training_testing.py
@@ -70,7 +71,7 @@ python constructive.py <'write evaluation setup such as S1, S2, S3'>
 ```
 e.g., python constructive.py S1
 
-##  The following scripts preprocess, train, and evaluate the SHARP.
+##  The following scripts preprocess the raw data, train and evaluate the SHARP.
 Note: Navigate to ```sharp_code``` directory. 
 ### Preprocessing 
 Convert the raw CSI values into complex number. 
@@ -82,7 +83,7 @@ Combine CSI files participants-wise and store them into ```input_combine```
 ```bash
 python combine.py
 ```
-## Denoising- Phase saniization
+### Denoising- Phase saniization
 
 ```bash
 python preprocessing.py
@@ -93,15 +94,27 @@ Computing Doppler vector feature features and denoising
 ```bash
 python CSI_doppler_computation.py
 ```
-## Creating training and testing setup
+### Creating training and testing setup
 ```bash
 python training_testing.py
 python CSI_doppler_create_dataset_train_test.py
 ```
-## Training and Evaluating the SHARP model 
+### Training and Evaluating the SHARP model 
 ```bash
 pythion CSI_network.py 
 ```
+## Python and relevant libraries version
+Python >= 3.7.7
+
+TensorFlow >= 2.6.0
+
+Numpy >= 1.19.5
+
+Scipy = 1.4.1
+
+Scikit-learn = 0.23.2
+
+OSQP >= 0.6.1
 
 ## Contact 
 Vijay Kumar Singh vijaysi@iiitd.ac.in github/vijay13feb
