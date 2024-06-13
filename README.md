@@ -29,11 +29,11 @@ Note: Navigate to ```code``` directory.
 
 Computing amplitude feature and denoising 
 ```bash
-amplitude_preprocessing.ipynb
+Python amplitude_preprocessing.py
 ```
 Create training and testing dataset for ```S1```, ```S2``` and ```S3```. The training scripts contain code for ```S2``. 
 ```bash
-training_testing.ipynb
+Python training_testing.py
 ```
 ### Training and evaluation
 ```bash
@@ -50,17 +50,16 @@ Python random_forest.py <'write evaluation setup such as S1, S2, S3'>
 ```
 ```bash
 Python xgboost.py <'write evaluation setup such as S1, S2, S3'>
-```
-Note: These scripts contain instructions to modify the experiment setup. 
+``` 
 ```bash
-bilstm.ipynb
+Python bilstm.py <'write evaluation setup such as S1, S2, S3'>
 ```
 ```bash
-contrastive.ipynb
+Python contrastive.py <'write evaluation setup such as S1, S2, S3'>
 ```
 
 ```bash
-constructive.ipynb
+Python constructive.py <'write evaluation setup such as S1, S2, S3'>
 ```
 
 ##  following scripts preprocess, train, and evaluate the SHARP.
@@ -68,27 +67,27 @@ Note: Navigate to ```sharp_code``` directory.
 ### preprocessing 
 Convert the raw CSI values into complex number. 
 ```bash
-convert_complex.ipynb
+Python convert_complex.py
 ```
 Combine CSI files participants-wise and store them into ```input_combine```
 
 ```bash
-combine.ipynb
+Python combine.py
 ```
 Denoising- Phase saniization
 
 ```bash
-preprocessing.ipynb
+Python preprocessing.py
 Python CSI_signal_Hestimation.py
 Python CSI_signal_reconstruction.py
 ```
 Computing Doppler vector feature features and denoising 
 ```bash
-CSI_doppler_computation.ipynb
+python CSI_doppler_computation.py
 ```
 Creating training and testing setup
 ```bash
-training_testing.ipynb
+Python training_testing.py
 ```
 
 
