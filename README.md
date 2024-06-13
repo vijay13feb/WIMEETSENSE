@@ -107,8 +107,9 @@ e.g., python CSI_doppler_create_dataset_train_test.py ./ S4 31 1 256 30 Fo,LD,LL
 Fo - Looking Forward, LD - Looking Down, LL - Looking Left, LR - Looking Right, LU - Looking Up No - Nodding, Sh - Shaking
 ### Training and Evaluating the SHARP model 
 ```bash
-pythion CSI_network.py 
+python CSI_network.py ./ <setup> <feature_length-set by doppler_computation.py code> <Length along the time dimension (width)> <Number of channel> <Number of samples in a batch> <Number of antenna * number of spatial streams> <Name base> <labels_activities>
 ```
+e.g., python CSI_network.py ./ S4 100 340 1 16  1 temp  Fo,LD,LL,LR,LU,No,Sh
 ## Python and relevant libraries version
 Python >= 3.7.7
 
