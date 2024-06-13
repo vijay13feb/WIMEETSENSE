@@ -44,8 +44,9 @@ def hampel_filter(input_matrix, window_size, n_sigmas=3):
     print("hampel filter done")
     return new_matrix
 # input type is pandas
-df_list=[]
+
 def denoise(df,wavelt, sigma):
+    df_list=[]
     for i in range(len(df.columns)):
         signal = df.iloc[:, i]
         # Perform wavelet decomposition
