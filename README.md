@@ -9,10 +9,8 @@ Create "WIMEETSENSE" folder in your desired directory.
 ```bash
 mkdir WIMMETSENSE
 cd WIMMETSENSE
-git clone https://github.com/vijay13feb/WIMMETSENSE.git
-```
-Or download the repository form https://github.com/vijay13feb/WIMMETSENSE.git
 
+```
 You can download our dataset from https://doi.org/10.5281/zenodo.11551205 and unzip the file. 
 
 The dataset contains CSI, video, and audio data with descriptions of filenames. This code repository can be used with CSI data. The CSI data consist of two zip files, "csi_semi.zip" and "csi_wild.zip". Unzip the files and place them at ```./WIMEETSENSE/code/raw_csi```. 
@@ -145,8 +143,7 @@ Scikit-learn = 0.23.2
 
 OSQP >= 0.6.1
 
-## Contact 
-Vijay Kumar Singh vijaysi@iiitd.ac.in github/vijay13feb
+
 
 
 
