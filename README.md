@@ -11,7 +11,7 @@ mkdir WIMMETSENSE
 cd WIMMETSENSE
 
 ```
-You can download our dataset from https://doi.org/10.5281/zenodo.11551205 and unzip the file. 
+
 
 The dataset contains CSI, video, and audio data with descriptions of filenames. This code repository can be used with CSI data. The CSI data consist of two zip files, "csi_semi.zip" and "csi_wild.zip". Unzip the files and place them at ```./WIMEETSENSE/code/raw_csi```. 
 
