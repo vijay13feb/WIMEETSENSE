@@ -4,7 +4,9 @@ WIMEETSENSE: WiFi-Based Meeting Dataset for Human Activity Recognition during On
 This repository contains the reference code for data preprocessing and benchmarking. 
 ## How to download the dataset and code repository 
 Clone the repository and enter the folder with the Python code:
-
+```bash 
+https://doi.org/10.5281/zenodo.11551205
+```
 Create "WIMEETSENSE" folder in your desired directory. 
 ```bash
 mkdir WIMMETSENSE
